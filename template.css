@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    }
+body{
+    background: linear-gradient(
+        rgba(150, 150, 150, 0.3),
+        rgba(150, 150, 150, 0.3)),
+        url("oct18_26_758313937.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+/*上面是背景設定下面是class設定*/
+.center{
+    display:flex;
+    justify-content:center;
+}
+.t-setting{
+    border-collapse: collapse;
+    background-color:#F4E04D;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.title{
+    text-align: center;
+    color:#3ec1d3;
+    font-size:20px;
+    margin: bottom 100px;
+}
+.text{
+    color: black;
+}
+@media (max-width:1250px){
+    .list{
+        flex-wrap:wrap;
+    }
+    .product{
+        width:45%;
+    }
+}
+@media (max-width:500px){
+    .product{
+        width:90%;
+    }
+}
