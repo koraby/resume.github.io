@@ -43,6 +43,6 @@ body{
 }
 @media (max-width:500px){
     .product{
-        width:90%;
+        width:60%;
     }
 }
